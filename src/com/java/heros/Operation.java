@@ -2,27 +2,26 @@ package com.java.heros;
 
 public class Operation {
 
-    public int addition(int number_1, int number_2) {
-        int result = number_1 + number_2;
-
+    //Operates over two digits to make an Addition
+    public float addition(float number_1, float number_2) {
+        float result = number_1 + number_2;
         return  result;
     }
 
-    public int subtraction(int number_1, int number_2) {
-        int result = number_1 - number_2;
-
+    //Operates over two digits to make a Subtraction
+    public float subtraction(float number_1, float number_2) {
+        float result = number_1 - number_2;
         return result;
     }
 
-    public int multiplication(int number_1, int number_2) {
-        int result = number_1 * number_2;
-
+    //Operates over two digits to make a Multiplication
+    public float multiplication(float number_1, float number_2) {
+        float result = number_1 * number_2;
         return result;
     }
-
-    public int division(int number_1, int number_2) {
-        int result = number_1 / number_2;
-
+    //Operates over two digits to make a Division
+    public float division(float number_1, float number_2) {
+        float result = number_1 / number_2;
         return result;
     }
 }
